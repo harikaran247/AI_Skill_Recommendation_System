@@ -1,0 +1,692 @@
+{
+  "dataset_verification": {
+    "filename": "AI_Skill_Recommendation_Dataset.csv",
+    "row_count": 1640,
+    "column_count": 7,
+    "columns": [
+      "career_goal",
+      "existing_skills",
+      "required_skills",
+      "missing_skills",
+      "recommended_next_skill",
+      "priority",
+      "suggested_project"
+    ],
+    "missing_values": {
+      "career_goal": 0,
+      "existing_skills": 11,
+      "required_skills": 0,
+      "missing_skills": 0,
+      "recommended_next_skill": 0,
+      "priority": 0,
+      "suggested_project": 0
+    },
+    "careers_count": 11,
+    "unique_skills_recommended": 85,
+    "priority_distribution": {
+      "High": 1511,
+      "Medium": 129
+    }
+  },
+  "evaluation_metrics": {
+    "test_sample_count": 328,
+    "train_sample_count": 1312,
+    "accuracy": 0.9573170731707317,
+    "accuracy_percent": 95.73,
+    "precision_weighted": 0.9486419349264342,
+    "precision_macro": 0.8064466407345665,
+    "recall_weighted": 0.9573170731707317,
+    "recall_macro": 0.7908496732026142,
+    "f1_score_weighted": 0.949658850260653,
+    "f1_score_macro": 0.7910794170129208,
+    "algorithm": "TF-IDF Vectorizer (ngram 1-2) + Logistic Regression (C=10, lbfgs)",
+    "classification_report": {
+      "AWS or Azure Basics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Agile and Scrum": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "CI/CD": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 3.0
+      },
+      "CSS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Cloud Fundamentals": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Color and Typography": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "Computer Networking": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "Cryptography Basics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Dart or Kotlin Basics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "Data Cleaning": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "Data Visualization": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Design Principles": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
+      },
+      "Excel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "Exception Handling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Exploratory Data Analysis": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Express.js": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Feature Engineering": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Git and GitHub": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9.0
+      },
+      "HTML": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16.0
+      },
+      "JDBC": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Java Collections": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "Java Fundamentals": {
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "f1-score": 0.972972972972973,
+        "support": 18.0
+      },
+      "JavaScript": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "Linux Fundamentals": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1-score": 0.9565217391304348,
+        "support": 22.0
+      },
+      "Machine Learning": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "Market Analysis": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "Node.js": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "NumPy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Object-Oriented Programming": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Pandas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "Personas and User Journeys": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Prioritization Frameworks": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Problem Discovery": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 7.0
+      },
+      "Product Analytics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Product Requirements": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Programming Fundamentals": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+      },
+      "Prototyping": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Python": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      },
+      "Python Scripting": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Python or Bash Scripting": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "SQL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14.0
+      },
+      "Scikit-learn": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Security Fundamentals": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "State Management": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "Statistics": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "Statistics and Probability": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "Testing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "UI Layout and Navigation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "User Research": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 8.0
+      },
+      "Web Security": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Wireframing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "accuracy": 0.9573170731707317,
+      "macro avg": {
+        "precision": 0.8064466407345665,
+        "recall": 0.7908496732026142,
+        "f1-score": 0.7910794170129208,
+        "support": 328.0
+      },
+      "weighted avg": {
+        "precision": 0.9486419349264342,
+        "recall": 0.9573170731707317,
+        "f1-score": 0.949658850260653,
+        "support": 328.0
+      }
+    }
+  },
+  "career_goals": [
+    "Full Stack Developer",
+    "AI Engineer",
+    "Data Analyst",
+    "Java Developer",
+    "Cybersecurity Analyst",
+    "Cloud Engineer",
+    "Mobile App Developer",
+    "UI/UX Designer",
+    "DevOps Engineer",
+    "Product Manager",
+    "Data Scientist"
+  ],
+  "career_skills_map": {
+    "Full Stack Developer": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git and GitHub",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Authentication and Authorization",
+      "REST APIs",
+      "Deployment",
+      "Testing"
+    ],
+    "AI Engineer": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Statistics and Probability",
+      "Data Visualization",
+      "Scikit-learn",
+      "Machine Learning",
+      "Model Evaluation",
+      "Deep Learning",
+      "PyTorch or TensorFlow",
+      "Model Deployment"
+    ],
+    "Data Analyst": [
+      "Excel",
+      "SQL",
+      "Data Cleaning",
+      "Statistics",
+      "Python",
+      "Pandas",
+      "Data Visualization",
+      "Power BI or Tableau",
+      "Exploratory Data Analysis",
+      "Business Communication"
+    ],
+    "Java Developer": [
+      "Java Fundamentals",
+      "Object-Oriented Programming",
+      "Java Collections",
+      "Exception Handling",
+      "SQL",
+      "JDBC",
+      "Git and GitHub",
+      "Maven",
+      "Spring Boot",
+      "REST APIs",
+      "Testing"
+    ],
+    "Cybersecurity Analyst": [
+      "Computer Networking",
+      "Linux Fundamentals",
+      "Python Scripting",
+      "Security Fundamentals",
+      "Cryptography Basics",
+      "Web Security",
+      "SIEM Fundamentals",
+      "Vulnerability Assessment",
+      "Incident Response",
+      "Digital Forensics Basics"
+    ],
+    "Cloud Engineer": [
+      "Computer Networking",
+      "Linux Fundamentals",
+      "Git and GitHub",
+      "Python or Bash Scripting",
+      "Cloud Fundamentals",
+      "AWS or Azure Basics",
+      "IAM and Security",
+      "Docker",
+      "CI/CD",
+      "Monitoring",
+      "Infrastructure as Code"
+    ],
+    "Mobile App Developer": [
+      "Programming Fundamentals",
+      "Dart or Kotlin Basics",
+      "UI Layout and Navigation",
+      "State Management",
+      "API Integration",
+      "Local Data Storage",
+      "Authentication",
+      "Testing",
+      "Git and GitHub",
+      "App Deployment"
+    ],
+    "UI/UX Designer": [
+      "Design Principles",
+      "Color and Typography",
+      "User Research",
+      "Personas and User Journeys",
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing",
+      "Figma",
+      "Accessibility",
+      "Design Handoff"
+    ],
+    "DevOps Engineer": [
+      "Linux Fundamentals",
+      "Computer Networking",
+      "Git and GitHub",
+      "Python or Bash Scripting",
+      "Docker",
+      "CI/CD",
+      "Cloud Fundamentals",
+      "Kubernetes Basics",
+      "Infrastructure as Code",
+      "Monitoring and Logging"
+    ],
+    "Product Manager": [
+      "Problem Discovery",
+      "User Research",
+      "Market Analysis",
+      "Product Requirements",
+      "Prioritization Frameworks",
+      "User Stories and Acceptance Criteria",
+      "Agile and Scrum",
+      "Product Analytics",
+      "Wireframing Basics",
+      "Stakeholder Communication"
+    ],
+    "Data Scientist": [
+      "Python",
+      "SQL",
+      "NumPy",
+      "Pandas",
+      "Statistics and Probability",
+      "Data Visualization",
+      "Feature Engineering",
+      "Machine Learning",
+      "Model Evaluation",
+      "Experiment Design",
+      "Model Deployment"
+    ]
+  },
+  "skill_projects_map": {
+    "Express.js": "CRUD REST API",
+    "JavaScript": "Interactive To-Do App",
+    "Node.js": "Simple REST API",
+    "HTML": "Personal Portfolio Website",
+    "CSS": "Responsive Landing Page",
+    "MongoDB": "MERN Notes App",
+    "Deployment": "Deploy a Full Stack Application",
+    "Git and GitHub": "Version-Controlled Portfolio",
+    "React": "React Task Manager",
+    "Authentication and Authorization": "Login and Registration System",
+    "REST APIs": "Employee Management API",
+    "Python": "Python Data Processing Tool",
+    "Scikit-learn": "House Price Prediction",
+    "Pandas": "Dataset Analysis Dashboard",
+    "NumPy": "Numerical Analysis Mini Project",
+    "Data Visualization": "Exploratory Data Analysis Report",
+    "Statistics and Probability": "Statistical Data Analysis",
+    "Model Deployment": "Deploy an ML Prediction API",
+    "Model Evaluation": "Compare Classification Models",
+    "Deep Learning": "Image Classification Prototype",
+    "Machine Learning": "Student Performance Predictor",
+    "PyTorch or TensorFlow": "Neural Network Classifier",
+    "Data Cleaning": "Clean a Messy Dataset",
+    "Excel": "Sales Spreadsheet Analysis",
+    "SQL": "Retail Database Queries",
+    "Business Communication": "Present Data-Driven Findings",
+    "Exploratory Data Analysis": "Customer Trends Report",
+    "Statistics": "Descriptive Statistics Report",
+    "Power BI or Tableau": "Business Intelligence Dashboard",
+    "Java Fundamentals": "Java Console Application",
+    "Object-Oriented Programming": "Library Management System",
+    "Exception Handling": "Robust File Processing App",
+    "Spring Boot": "Spring Boot REST API",
+    "Java Collections": "Student Record Manager",
+    "JDBC": "Java MySQL Application",
+    "Maven": "Maven-Based Java Project",
+    "Testing": "JUnit Test Suite",
+    "Python Scripting": "Log Parsing Script",
+    "Computer Networking": "Network Basics Lab",
+    "Linux Fundamentals": "Linux Command-Line Exercises",
+    "Security Fundamentals": "Threat Awareness Report",
+    "Cryptography Basics": "Encryption Demonstration",
+    "Web Security": "OWASP Top 10 Study Lab",
+    "SIEM Fundamentals": "Security Log Dashboard",
+    "Vulnerability Assessment": "Practice Lab Vulnerability Report",
+    "Incident Response": "Incident Response Playbook",
+    "Digital Forensics Basics": "Forensic Timeline Exercise",
+    "Python or Bash Scripting": "Automation Script",
+    "IAM and Security": "Least-Privilege Access Design",
+    "Infrastructure as Code": "Provision a Test Environment",
+    "AWS or Azure Basics": "Deploy a Static Website",
+    "Cloud Fundamentals": "Cloud Service Comparison",
+    "CI/CD": "Automated Build Pipeline",
+    "Docker": "Containerize a Web App",
+    "Monitoring": "Cloud Monitoring Dashboard",
+    "Dart or Kotlin Basics": "Basic Mobile Utility",
+    "Local Data Storage": "Offline Notes App",
+    "Programming Fundamentals": "Simple Console App",
+    "State Management": "Shopping Cart Prototype",
+    "UI Layout and Navigation": "Multi-Screen App",
+    "API Integration": "Weather App",
+    "Authentication": "Login Flow Prototype",
+    "App Deployment": "Release-Ready App Build",
+    "Color and Typography": "Style Guide",
+    "User Research": "User Interview Summary",
+    "Design Principles": "Visual Design Study",
+    "Wireframing": "Low-Fidelity App Wireframes",
+    "Prototyping": "Clickable App Prototype",
+    "Accessibility": "Accessible Interface Review",
+    "Personas and User Journeys": "Persona and Journey Map",
+    "Usability Testing": "Usability Test Report",
+    "Figma": "Interactive Figma Prototype",
+    "Monitoring and Logging": "Service Monitoring Dashboard",
+    "Kubernetes Basics": "Local Kubernetes Deployment",
+    "Problem Discovery": "Problem Statement Document",
+    "Wireframing Basics": "Feature Wireframes",
+    "Product Requirements": "Product Requirements Document",
+    "User Stories and Acceptance Criteria": "Backlog for a Small App",
+    "Market Analysis": "Competitor Analysis",
+    "Stakeholder Communication": "Product Review Presentation",
+    "Prioritization Frameworks": "Feature Prioritization Matrix",
+    "Product Analytics": "Product Metrics Dashboard",
+    "Agile and Scrum": "Sprint Plan",
+    "Feature Engineering": "Feature Preparation Pipeline",
+    "Experiment Design": "A/B Test Analysis"
+  },
+  "skill_priority_map": {
+    "Express.js": "High",
+    "JavaScript": "High",
+    "Node.js": "High",
+    "HTML": "High",
+    "CSS": "High",
+    "MongoDB": "High",
+    "Deployment": "Medium",
+    "Git and GitHub": "High",
+    "React": "High",
+    "Authentication and Authorization": "Medium",
+    "REST APIs": "High",
+    "Python": "High",
+    "Scikit-learn": "High",
+    "Pandas": "High",
+    "NumPy": "High",
+    "Data Visualization": "Medium",
+    "Statistics and Probability": "High",
+    "Model Deployment": "Medium",
+    "Model Evaluation": "High",
+    "Deep Learning": "Medium",
+    "Machine Learning": "High",
+    "PyTorch or TensorFlow": "Medium",
+    "Data Cleaning": "High",
+    "Excel": "High",
+    "SQL": "High",
+    "Business Communication": "Medium",
+    "Exploratory Data Analysis": "High",
+    "Statistics": "High",
+    "Power BI or Tableau": "High",
+    "Java Fundamentals": "High",
+    "Object-Oriented Programming": "High",
+    "Exception Handling": "Medium",
+    "Spring Boot": "High",
+    "Java Collections": "High",
+    "JDBC": "High",
+    "Maven": "Medium",
+    "Testing": "Medium",
+    "Python Scripting": "Medium",
+    "Computer Networking": "High",
+    "Linux Fundamentals": "High",
+    "Security Fundamentals": "High",
+    "Cryptography Basics": "Medium",
+    "Web Security": "High",
+    "SIEM Fundamentals": "Medium",
+    "Vulnerability Assessment": "High",
+    "Incident Response": "High",
+    "Digital Forensics Basics": "Medium",
+    "Python or Bash Scripting": "Medium",
+    "IAM and Security": "High",
+    "Infrastructure as Code": "Medium",
+    "AWS or Azure Basics": "High",
+    "Cloud Fundamentals": "High",
+    "CI/CD": "Medium",
+    "Docker": "High",
+    "Monitoring": "Medium",
+    "Dart or Kotlin Basics": "High",
+    "Local Data Storage": "Medium",
+    "Programming Fundamentals": "High",
+    "State Management": "High",
+    "UI Layout and Navigation": "High",
+    "API Integration": "High",
+    "Authentication": "Medium",
+    "App Deployment": "Medium",
+    "Color and Typography": "High",
+    "User Research": "High",
+    "Design Principles": "High",
+    "Wireframing": "High",
+    "Prototyping": "High",
+    "Accessibility": "Medium",
+    "Personas and User Journeys": "High",
+    "Usability Testing": "High",
+    "Figma": "High",
+    "Monitoring and Logging": "Medium",
+    "Kubernetes Basics": "Medium",
+    "Problem Discovery": "High",
+    "Wireframing Basics": "Medium",
+    "Product Requirements": "High",
+    "User Stories and Acceptance Criteria": "High",
+    "Market Analysis": "Medium",
+    "Stakeholder Communication": "High",
+    "Prioritization Frameworks": "High",
+    "Product Analytics": "High",
+    "Agile and Scrum": "High",
+    "Feature Engineering": "High",
+    "Experiment Design": "Medium"
+  }
+}
